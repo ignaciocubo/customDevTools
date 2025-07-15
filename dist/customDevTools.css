@@ -1,0 +1,82 @@
+#btns-fixed #btnAbrir {
+  position: fixed;
+  right: 15px;
+  bottom: 75px;
+  padding: 10px;
+  color: #dfdfdf;
+  background-color: #aa3300;
+  font-size: 20pt;
+  border: none;
+  border-radius: 50%;
+  z-index: 5;
+}
+#btns-fixed #btnAbrir:hover {
+  cursor: pointer;
+}
+#btns-fixed .devTools {
+  background-color: #aa3300;
+  color: #dfdfdf;
+  display: none;
+  margin-top: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 140px;
+  padding: 50px 10px;
+  border-radius: 10px;
+  width: 300px;
+  gap: 20px;
+  z-index: 90;
+}
+#btns-fixed .devTools i {
+  font-size: 30pt;
+}
+#btns-fixed .devTools span {
+  position: relative;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  box-shadow: 0 0 10px 0;
+  border-radius: 50%;
+}
+#btns-fixed .devTools span :hover {
+  cursor: pointer;
+}
+#btns-fixed .devTools span p {
+  position: absolute;
+  bottom: -20px;
+  font-size: 8pt;
+}
+#btns-fixed #formulario {
+  display: none;
+  margin-top: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 140px;
+  background-color: #bfbfbf;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  z-index: 91;
+}
+#btns-fixed #formulario * {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+#btns-fixed #formulario .bi-github {
+  font-size: 25pt;
+  padding: 0 !important;
+}
+#btns-fixed #formulario h3 {
+  font-size: 25pt;
+}
+#btns-fixed #formulario textarea {
+  resize: none;
+  min-height: 150px;
+}
+#btns-fixed #formulario #btnEnviar:hover {
+  cursor: pointer;
+}
